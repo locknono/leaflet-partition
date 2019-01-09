@@ -1,0 +1,22 @@
+{
+  "name": "leaflet-partition",
+  "version": "1.0.0",
+  "main": "./src/index.js",
+  "author": "locknono <guozy0103@outlook.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/leaflet": "^1.2.14",
+    "ts-loader": "^5.3.3",
+    "typescript": "^3.2.2",
+    "webpack": "^4.28.1",
+    "webpack-cli": "^3.2.1",
+    "webpack-dev-server": "^3.1.14"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --open",
+    "build": "webpack",
+    "watch": "webpack --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {}
+}
