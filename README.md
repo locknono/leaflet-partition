@@ -64,11 +64,11 @@ partition.setOption(options)
 
 Where **type** is a string value represents partition method,options:**'voronoi'**,**'hexagon'**
 
-If type is `voronoi`,`data` should be a list of L.latlng
+If type is `voronoi`,`data` should be an array of `L.Latlng`s
 
-if type is `hexagon`,data should be L.bound
+if type is `hexagon`,data should be `L.LatLngBounds`
 
-**pathStleOption** property is a leaflet [Path Options](https://leafletjs.com/reference-1.4.0.html#path) Object
+**pathStyleOption** property is a leaflet [Path Options](https://leafletjs.com/reference-1.4.0.html#path) Object
 
 
 
