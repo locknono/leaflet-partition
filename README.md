@@ -23,7 +23,7 @@ leaflet-partition is a leaflet plugin for dividing the area into parts.
 
 Include the dependency libraries in the dist folder
 
-`<script src="Leaflet.Partition.min.js"></script>`
+`<script src="leaflet-partition.min.js"></script>`
 
 **(optional)**If you use trigulation for partition,add the following:
 
