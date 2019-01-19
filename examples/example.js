@@ -4,9 +4,6 @@ L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
     '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
 }).addTo(map);
 
-map.on("click", function(e) {
-  console.log([e.latlng.lat, e.latlng.lng]);
-});
 const pointsForVoronoi = [
   [51.518783384812714, -0.1436791248938185],
   [51.525085229881086, -0.12891624497409107],
@@ -35,10 +32,6 @@ const pointsForVoronoi = [
   [51.52529883280484, -0.11449638637615059],
   [51.52529883280484, -0.08085018969948622]
 ];
-const boundForHex = [
-  [51.53213371811051, -0.07364127597232263],
-  [51.485016285000434, 0.001889737570466288]
-];
 
 const voronoiOptions = {
   type: "voronoi",
@@ -46,6 +39,11 @@ const voronoiOptions = {
     color: "red"
   }
 };
+
+const boundForHex = [
+  [51.53213371811051, -0.07364127597232263],
+  [51.485016285000434, 0.001889737570466288]
+];
 
 const hexOption = {
   type: "hexagon",

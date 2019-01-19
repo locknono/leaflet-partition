@@ -1,5 +1,6 @@
 import getVoronoiPath from "./algorithm/voronoi";
 import getHexagonPath from "./algorithm/hexagon";
+
 const defaultOptions = {
   type: "voronoi"
 };
