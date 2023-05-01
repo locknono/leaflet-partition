@@ -1,10 +1,10 @@
 # [leaflet-partition](https://github.com/locknono/leaflet-partition)  [![GitHub license](https://camo.githubusercontent.com/890acbdcb87868b382af9a4b1fac507b9659d9bf/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6c6963656e73652d4d49542d626c75652e737667)](https://github.com/locknono/leaflet-partition/blob/master/LICENSE)
 
-leaflet-partition is a leaflet plugin for dividing the area into parts.
+leaflet-partition is a leaflet plugin designed to divide geographic areas into distinct sections.
 
-- **Different ways**:such as triangulation and hexagonal tiling.
-- **Data binding**:leaflet-partition allows you to bind arbitrary data to partition, and then apply data-driven transformations to the partition. 
-- **Simple and Flexible**:leaflet-partition takes charge of path calculating ,data binding,rendering and updating,But you still have full control(DOM operations,style settings) of each partition.
+- **Various methods**:Supports different partitioning techniques, such as triangulation and hexagonal tiling.
+- **Data binding**:leaflet-partition enables you to bind arbitrary data to partitions and apply data-driven transformations to them. 
+- **Simple and Flexible**:leaflet-partition takes care of path calculations, data binding, rendering, and updating, while still providing you with full control over individual partitions (DOM operations, style settings).
 
 - **Suitable for data visualization**
 
