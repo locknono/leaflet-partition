@@ -15,7 +15,7 @@ leaflet-partition is a leaflet plugin designed to divide geographic areas into d
 ## Requirements
 
 - leaflet 1.x
-- if you use trigulation for partition,`d3-voronoi`is required
+- If you choose to use triangulation for partitioning, d3-voronoi is required.
 
 
 
@@ -25,12 +25,11 @@ Include the dependency libraries in the dist folder
 
 `<script src="leaflet-partition.min.js"></script>`
 
-**(optional)**If you use trigulation for partition,add the following:
+**(optional)**If you use trigulation for partition, add the following:
 
 `<script src="https://d3js.org/d3-voronoi.v1.min.js"></script>`
 
-This plugin is a **UMD**  module,so you can also use it in commonJS or AMD environment. 
-
+This plugin is a **UMD**  module, so you can use it in commonJS or AMD environments. 
 
 
  Then:
@@ -41,8 +40,7 @@ partition.setData(data);
 const layerGroup = partition.addTo(map);
 ```
 
-layerGroup is just a leafelt [LayerGroup](https://leafletjs.com/reference-1.4.0.html#layergroup) Object,which you can take full control of each partition.
-
+layerGroup is just a leafelt [LayerGroup](https://leafletjs.com/reference-1.4.0.html#layergroup) Object, which allows you to take full control of each partition.
 
 
 Set type and style option:
@@ -62,15 +60,13 @@ const partition = L.partition(options);
 partition.setOption(options)
 ```
 
-Where **type** is a string value represents partition method,options:**'voronoi'**,**'hexagon'**
+Where **type** is a string value represents partition method. Options:**'voronoi'**,**'hexagon'**.
 
-If type is `voronoi`,`data` should be an array of `L.Latlng`s
+If type is `voronoi`, `data` should be a list of `L.Latlng`.
 
-if type is `hexagon`,data should be `L.LatLngBounds`
+If type is `hexagon`, `data` should be `L.LatLngBounds`/
 
-**pathStyleOption** property is a leaflet [Path Options](https://leafletjs.com/reference-1.4.0.html#path) Object
-
-
+**pathStyleOption** property is a leaflet [Path Options](https://leafletjs.com/reference-1.4.0.html#path) Object.
 
 
 
@@ -80,9 +76,7 @@ Set data and Update:
 partition.setData(data);
 ```
 
-Then the view updates itself.
-
-
+Then, the view updates itself.
 
 
 
@@ -91,9 +85,6 @@ Then the view updates itself.
 ## License
 
 leaflet-partition is [MIT licensed](https://github.com/locknono/leaflet-partition/blob/master/LICENSE)
-
-
-
 
 
 
